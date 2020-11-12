@@ -21,5 +21,9 @@
         <action id="ConvertToFolderAction" class="ConvertToFolderAction" text="Convert To Folder">
             <add-to-group group-id="RefactoringMenu" anchor="first"/>
         </action>
+        <action id="SimplifyToFile" class="SimplifyToFile" text="Simpilfy To File"
+                description="Converts Folder with single index.extenstion to a file">
+            <add-to-group group-id="RefactoringMenu" anchor="first"/>
+        </action>
     </actions>
 </idea-plugin>
